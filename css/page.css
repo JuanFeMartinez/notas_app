@@ -16,6 +16,10 @@
  }
  .page-content .notas-content{
     grid-area: notas;
+    display: flex;
+    flex-direction:column;
+    align-self: flex-end;
+    justify-content: flex-start;
  }
 
  .page-content .promedio-content{
